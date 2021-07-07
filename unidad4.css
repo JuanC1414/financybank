@@ -1,0 +1,263 @@
+body {
+    background-color: white;
+ }
+ #contenedor {
+     width: 1024px;
+     height: 768px;
+     background: #FFE9FD;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ header {
+     width: 1024px;
+     height: 40px;
+ }
+
+/* BARRA DE NAVEGACION */
+ #barranavegacion {
+    display: inline-block;
+    width: 700px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #C814F8;
+    list-style-type: none;
+    font-weight: bold;
+ }
+ #barranavegacion ul {
+     margin: 0px;
+     width: 450px;
+     height: 40px;
+     margin-block: 0px;
+     display: inline-block;
+ }
+ #barranavegacion ul li {
+     display: inline-block;
+     margin-top: 0px;
+     width: 100px;
+     height: 40px;
+ }
+ #barranavegacion ul li a {
+    width: 80px;
+    height: 39px;
+    margin-bottom: 0px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+ }
+ #barranavegacion ul li a img {
+     margin-top: 0px;
+     margin-bottom: -15px;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+ #barranavegacion a:hover {
+     background-color: #67CEAC;
+     width: 80px;
+     height: 39px;
+ }
+ #barranavegacion img {
+     width: 70px;
+     height: 40px;
+ }
+
+
+
+/* SUPERIOR DERECHO INICIO SESION */
+ #sesion {
+    width: 324px;
+    height: 40px;
+    margin: auto;
+    padding: auto;
+    background-color: #C814F8;
+    list-style-type: none;
+    font-weight: bold;
+    float: right;
+ }
+ #sesion ul {
+    margin: 0px;
+    margin-right: 5px;
+    float: right;
+ }
+ #sesion ul li {
+    display: inline-block;
+ }
+ #sesion ul li a {
+    width: 50px;
+    height: 19px;
+    margin-bottom: 0px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    padding: 10px;
+ }
+ #sesion a:hover {
+     background-color: #67CEAC;
+ }
+ #sesion img {
+    width: 15px;
+    height: 15px;
+    background-color: #C814F8;
+    margin-bottom: 0px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+ }
+
+
+
+/* ESLOGAN / FRASE DE LA MARCA */
+ #eslogan {
+     width: 1024px;
+     height: 60px;
+     margin-top: auto;
+     background-color: #FFE9FD;
+     float: auto;
+ }
+ #eslogan p {
+     margin: 0px;
+     color:#303030;
+     text-align: center;
+     line-height: 60px; 
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+ }
+
+
+
+/* PARTE IZQUIRDA */
+ #cuadro-iz {
+     width: 360px;
+     height: 500px;
+     background-color: #FFE9FD;
+     float: left;
+ }
+ #cuadro-iz img {
+     width: 300px;
+     height: 400px;
+     float: none;
+     margin-top: 40px;
+     margin-left: 30px;
+     margin-right: 90px;
+     margin-bottom: 50px;
+ }
+
+
+
+/* PARTE DERECHA COLUMNAS  */
+ #columnas {
+     width: auto;
+     height: 500px;
+     float: right;
+ }
+#colum-izquierda {
+    width: 295px;
+    height: 450px;
+    background-color: #FFE9FD;
+    float: left;
+    margin-left: 80px;
+ }
+#colum-izquierda img {
+    font-size: auto;
+    margin-top: -21px;
+    margin-left: -100px;
+    float: none;
+    text-align: center;
+    width: 340px;
+    height: 195px;
+    padding: 0px;
+ }
+#colum-izquierda p {
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: #303030;
+    margin-top: 40px;
+    margin-right: 64px;
+    margin-bottom: 0px;
+    margin-left: -80px;
+ }
+#colum-derecha {
+    width: 282px;
+    height: 500px;
+    background-color: #FFE9FD;
+    float: right;
+ }
+#colum-derecha img {
+     width: 300px;
+     height: 230px;
+     float: none;
+     margin-top: -20px;
+     margin-left: -20px;
+     margin-right: 61px;
+     margin-bottom: -65px;
+ }
+
+
+
+
+ /* LEMA */
+#alfinal {
+    width: 1024px;
+    height: 80px;
+}
+#lema {
+   width: 1024px;
+   height: 80px;
+   background-color: #FFE9FD;
+}
+#alfinal img {
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    float: none;
+    padding: 0px;
+    margin-left: 335px;
+    margin-top: 10px;
+}
+
+
+
+/* PIE DE PAGINA */
+footer {
+     width: auto;
+     height: 167px;
+     margin-bottom: 0px;
+     float: left;
+ }
+ #alfinal {
+     width: 1024px;
+     height: 80px;
+ }
+ #lema {
+    width: 1024px;
+    height: 80px;
+    background-color: #FFE9FD;
+ }
+ #alfinal img {
+     width: 360px;
+     height: 50px;
+     text-align: center;
+     float: none;
+     padding: 0px;
+     margin-left: 335px;
+     margin-top: 10px;
+ }
+ #derechos {
+     width: 1024px;
+     height: 71px;
+     background-color: #c6c6c6;
+     margin-top: 0px;
+ }
+ #derechos p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    padding: 25px;
+ }

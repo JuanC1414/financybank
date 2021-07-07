@@ -1,0 +1,147 @@
+body {
+    background-color: white;
+ }
+ #contenedor {
+     width: 1024px;
+     height: 518px;
+     background: #FFE9FD;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ header {
+     width: 1024px;
+     height: 40px;
+ }
+
+
+
+ /* BARRA DE NAVEGACION */
+ #barranavegacion {
+    display: inline-block;
+    width: 1024px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #C814F8;
+    list-style-type: none;
+    font-weight: bold;
+ }
+ #barranavegacion ul {
+     margin: 0px;
+     width: 450px;
+     height: 40px;
+     margin-block: 0px;
+     display: inline-block;
+ }
+ #barranavegacion ul li {
+     display: inline-block;
+     margin-top: 0px;
+     width: 100px;
+     height: 40px;
+ }
+ #barranavegacion ul li a {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 0px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+ }
+ #barranavegacion ul li a img {
+     margin-top: 0px;
+     margin-bottom: -15px;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+ #barranavegacion a:hover {
+     background-color: #67CEAC;
+     width: 80px;
+     height: 39px;
+ }
+ #barranavegacion img {
+     width: 70px;
+     height: 40px;
+}
+
+
+
+/* LEMA INICIO */
+#alfinal {
+    width: 1024px;
+    height: 80px;
+}
+#lema {
+   width: 1024px;
+   height: 80px;
+   background-color: #FFE9FD;
+}
+#alfinal p {
+    width: 360px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    float: none;
+    padding: 0px;
+    margin-left: 335px;
+    margin-top: 35px;
+}
+
+
+/*PARTE CENTRAL SERVICIOS */
+#colum-derecha {
+    width: 1024px;
+    height: 100px;
+    background-color: #FFE9FD;
+    float: center;
+}
+#colum-derecha img {
+    width: 188px;
+    height: 125px;
+    float: right;
+    margin-top: -26px;
+    margin-left: -20px;
+    margin-right: 61px;
+    margin-bottom: -65px;
+}
+#txt-oper {
+    width: 1024px;
+    height: 45px;
+    float: center;
+    text-align: center;
+}
+#txt-oper p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    float: center;
+    color: black;
+    margin-top: 0px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    padding: 10px;
+}
+/* PIE DE PAGINA */
+footer {
+    width: auto;
+    height: 76px;
+    margin-bottom: 0px;
+    float: left;
+}
+#derechos {
+    width: 1024px;
+    height: 73px;
+    background-color: #c6c6c6;
+    margin-top: 0px;
+}
+#derechos p {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   margin-top: 160px;
+   color: white;
+   padding: 25px;
+}
